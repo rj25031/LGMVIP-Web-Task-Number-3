@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(bg.png);
+    background-size: 100% 100%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.line{
+    width: 10px;
+    background-color: #665A48;
+    height: auto;
+    border-radius: 20px;
+}
+.nav{
+    background-image: linear-gradient(45deg, #f6d5de, #9bc9e1f0);
+    margin: 0;
+    padding: 5px;
+}
+#submit{
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #a1c9e2;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px 2px gray;
+    transition: background-color 0.3s ease ;
+}
+#submit:active{
+    background-color: #66bef5;
+}
+#clear{
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #fd0000db;
+    padding: 8px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 2px gray;
+    transition: background-color 0.3s ease ;
+}
+#clear:active{
+    background-color: #fd0000f4;
+}
+#form{
+    display: inline-block;
+    text-align: left;
+    font-size: 2em;
+    width: 60%;
+    height: 20%;
+    margin: 100px;
+    background-image: linear-gradient(90deg, #f9dbe3, #bacce0);
+    box-shadow: 10px 10px 10px 0px gray;
+    border-radius: 15px;
+}
+.input>input{
+    border: 0.5px solid rgb(52, 51, 51);
+    border-radius: 8px;
+}
+.input{
+    margin: 30px;
+}
+.field{
+    display: flex;
+    border: none;
+    padding: 0;
+    margin: 30px;
+}
+#skill{
+    display: flex;
+    flex-direction: row;
+}
+#fe{
+    margin-left: 134.31px;
+}
+.skill{
+    padding: 0 10px;
+    font-size: 1.5rem;
+}
+#name{
+    margin-left: 130px;
+    font-size: 1.5rem;
+    padding: 7px;
+}
+#mail{
+    margin-left: 130px;
+    font-size: 1.5rem;
+    padding: 7px;
+}
+#website{
+    margin-left: 104.14px;
+    font-size: 1.5rem;
+    padding: 7px;
+}
+#image{
+    margin-left: 68.73px;
+    font-size: 1.5rem;
+    padding: 7px;
+}
+.gender{
+    margin-left: 112.25px;
+    font-size: 1.5rem;
+    padding: 7px;
+}
+#fema{
+    margin-left: 5px;
+}
+
+.display{
+    display: inline-block;
+    width: 49%;
+}
+
+table{
+    display: inline-block;
+    border-collapse: collapse;
+}
+th,td{
+    border: 3px solid #46a8e7;
+    width: 82%;
+    font-size: 25px;
+}
+th{
+    background-color: #46a8e7;
+}
+td{
+    text-align: left;
+    padding: 15px;
+    vertical-align: top;
+    background-image: linear-gradient(165deg, #f9dbe3, #bacce0);
+}
+span{
+    display: block;
+    text-align: left;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+span{
+    padding: 2px;
+}
+
+.togg{
+    display: none;
+}
+
+.space{
+    transition: box-shadow 0.3s ease ;
+}
+.space:focus{
+    box-shadow: 0px 0px 10px 5px #2f10c6;
+}

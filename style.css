@@ -157,3 +157,56 @@ span{
 .space:focus{
     box-shadow: 0px 0px 10px 5px #2f10c6;
 }
+
+
+@media (max-width:767px){
+    .main{
+        flex-direction: column;
+    }
+    #form {
+        width: 130%;
+        margin: 20px;
+        padding: 13px;
+    }
+    .input{
+        margin: 10px;
+    }
+    #name {
+        margin-left: 70px;
+        font-size: 1rem;
+    }
+    #mail{
+            margin-left: 70px;
+            font-size: 1rem;
+    }
+    #website {
+        margin-left: 45px;
+        font-size: 1rem;
+    }
+    #image {
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+    .field {
+        margin: 10px;
+    }
+    .gender {
+        margin-left: 25px;
+    }
+    #fe {
+        margin-left: 76px;
+    }
+    .skill{
+        padding: 0 7px;
+    }
+    .line{
+        display: none;
+    }
+    .display{
+        width: 153%;
+    }
+    .nav{
+        width: 150%;
+    }
+
+}
